@@ -1,0 +1,1326 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+     background-color:plum; 
+}
+
+/*-------------------------------------HOME HEADER NAVBAR--------------------------*/
+.header{
+    
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top:0; left: 0; right: 0;
+    background-color: plum;
+    
+    border-bottom: 3px solid purple;
+    padding:14px 7%;
+    
+}
+.header .logo img{
+    height: auto;
+    
+}
+.header .navbar{
+    
+    margin-right: auto;
+    
+    
+}
+.header .navbar ul{
+    
+    text-align: center;
+    display: inline-block;
+    vertical-align:top;
+    padding:15px;
+   
+    
+}
+.header .navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding : 15px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:12px;
+    color: white;
+    font-size: 25px;
+}
+.header .navbar a:hover{
+    color: purple;
+    border-bottom: 2px solid purple;
+    padding-bottom: 5px;
+    transition: 0.2s linear;
+}
+/*----------------------------------BTS IMAGE--------------------------------*/
+.image{
+    padding-top:140px;;
+    margin: 0;
+    max-width: 100%;
+    max-height:100% ;
+}
+p.about{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+h2.about{
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.awards{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*----------------------LISTEN----------------*/
+.listen{
+    text-align: center;
+    padding: 15px;
+}
+.listen a{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: purple;
+}
+.listen h4{
+    font-size: 25px;
+    padding: 5px;
+}
+/*---------------------------------------RM----------------------------------------*/
+#quote{
+    height: 300px;
+    display: flex;
+    background-color: white;
+}
+#quote .rm{
+    width: 300px;
+    height: 300px;
+    transition:0.7s ease-in-out;
+}
+#quote .rm:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#quote .q h1{
+    padding-left: 30px;
+    margin: 30px;
+}
+#quote .q p{
+    font-style: italic;
+    padding: 0px 10px 0px 30px; /*top,right,bottom,left*/
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*-------------------------------------6 members-------------------------------*/
+#quotes{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+    
+}
+/*-------------------------------------jin-------------------------------*/
+#quotes .quote1{
+    padding: 5px;
+    background-color: white;
+}
+#quotes .jin{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+}
+#quotes .jin:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote1 .q1 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote1 .q1 p{
+    font-style: italic;
+    padding: 10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-------------------------------------suga-------------------------------*/
+#quotes .quote2{
+    padding: 5px;
+    background-color: white;
+    
+}
+#quotes  .suga{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    
+}
+#quotes .suga:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote2 .q2 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote2 .q2 p{
+    font-style: italic;
+    padding: 10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-------------------------------------jhope-------------------------------*/
+#quotes .quote3{
+    padding: 5px;
+    background-color: white;
+}
+#quotes  .jhope{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+   
+}
+#quotes .jhope:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote3 .q3 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote3 .q3 p{
+    font-style: italic;
+    padding: 10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-------------------------------------jimin-------------------------------*/
+#quotes .quote4{
+    padding: 5px;
+    background-color: white;
+}
+#quotes .jimin{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+   
+}
+#quotes .jimin:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote4 .q4 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote4 .q4 p{
+    font-style: italic;
+    padding:10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-------------------------------------v-------------------------------*/
+#quotes .quote5{
+    padding: 5px;
+    background-color: white;
+}
+#quotes  .v{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    
+}
+#quotes .v:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote5 .q5 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote5 .q5 p{
+    font-style: italic;
+    padding:  10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-------------------------------------jungkook-------------------------------*/
+#quotes .quote6{
+    padding: 5px;
+    background-color: white;
+}
+#quotes  .jungkook{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    
+}
+#quotes .jungkook:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+.quote6 .q6 h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.quote6 .q6 p{
+    font-style: italic;
+    padding: 10px; /*top,right,bottom,left*/
+    margin: 10px;
+    font-size: 20px;
+}
+/*-----------------------IMAGE------------------------------*/
+#image .image{
+    padding: 0;
+}
+/*-------------------------QUOTES----------------------------*/
+.inspiration{
+    
+    margin: 5px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.inspiration h2{
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+/*-------------------------------SHOWS------------------------*/
+.show-header{
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.show-header h2{
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+/*--------------------------SHOWS-LIST-----------------------*/
+#shows-list{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    
+}
+/*------------------------RUN BTS-----------------------------*/
+#shows-list .run-bts{
+    padding: 5px;
+    background-color: white;
+}
+#shows-list .run-bts .run{
+    width: 250px;
+    height: 250px;
+    transition:0.7s ease-in-out;
+}
+#shows-list .run-bts .run:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*------------------------BON VOYAGE-----------------------------*/
+#shows-list .bonvoyage{
+    padding: 5px;
+    background-color: white;
+}
+#shows-list .bonvoyage .voyage{
+    width: 250px;
+    height: 250px;
+    transition:0.7s ease-in-out;
+}
+#shows-list .bonvoyage .voyage:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*------------------------IN THE SOOP-----------------------------*/
+#shows-list .soop{
+    padding: 5px;
+    background-color: white;
+}
+#shows-list .soop .in-the-soop{
+    width: 250px;
+    height: 250px;
+    transition:0.7s ease-in-out;
+}
+#shows-list .soop .in-the-soop:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#shows-list .soop2{
+    padding: 5px;
+    background-color: white;
+}
+#shows-list .soop2 .in-the-soop2{
+    width: 250px;
+    height: 250px;
+    transition:0.7s ease-in-out;
+}
+#shows-list .soop2 .in-the-soop2:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*------------------ROOKIE KING--------------------------*/
+#shows-list .rookie{
+    padding: 5px;
+    background-color: white;
+}
+#shows-list .rookie .rookieking{
+    width: 250px;
+    height: 250px;
+    transition:0.7s ease-in-out;
+}
+#shows-list .rookie .rookieking:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*-----------------------------VLIVE BTS---------------------*/
+#vlive{
+    padding: 5px;
+    
+}
+#vlive .vlive{
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition:0.7s ease-in-out;
+}
+#vlive .vlive:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*-----------------------------------LIVE-----------------------------*/
+.live h1{
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+#live{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    
+}
+/*-------------------------------------RM VLIVE--------------------------*/
+#live .rm-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .rm-live .rm{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .rm-live .rm:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .rm-live{
+    text-align: center;
+}
+/*-------------------------------------JIN VLIVE--------------------------*/
+#live .jin-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .jin-live .jin{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .jin-live .jin:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .jin-live{
+    text-align: center;
+}
+
+/*-------------------------------------SUGA VLIVE--------------------------*/
+#live .suga-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .suga-live .suga{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .suga-live .suga:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .suga-live{
+    text-align: center;
+}
+/*-------------------------------------JHOPE VLIVE--------------------------*/
+#live .jhope-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .jhope-live .jhope{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .jhope-live .jhope:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .jhope-live{
+    text-align: center;
+}
+/*-------------------------------------JIMIN VLIVE--------------------------*/
+#live .jimin-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .jimin-live .jimin{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .jimin-live .jimin:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .jimin-live{
+    text-align: center;
+}
+/*-------------------------------------V VLIVE--------------------------*/
+#live .v-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .v-live .v{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .v-live .v:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .v-live{
+    text-align: center;
+}
+/*-------------------------------------JUNGKOOK VLIVE--------------------------*/
+#live .jungkook-live{
+    padding: 5px;
+    background-color: white;
+}
+#live .jungkook-live .jungkook{
+    width: 170px;
+    height: 170px;
+    transition:0.7s ease-in-out;
+}
+#live .jungkook-live .jungkook:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+#live .jungkook-live{
+    text-align: center;
+}
+/*--------------------------------CONCERT HEADING H1--------------------*/
+.concert-heading h1{
+    margin: 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+/*-----------------------------CONCERT AND TOURS-------------------------*/
+#CONCERTS-TOURS{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+    
+}
+#CONCERTS-TOURS .concerts{
+    padding-top: 5px;
+    
+}
+#CONCERTS-TOURS .concert-image{
+    width: 600px;
+    height: 300px;
+}
+
+#CONCERTS-TOURS .tours{
+    padding-top: 5px;
+    
+}
+#CONCERTS-TOURS .tour-image{
+    width: 600px;
+    height: 300px;
+    transition:0.7s ease-in-out;
+}
+#CONCERTS-TOURS .tours .tour-image:hover{
+    /*transform: rotate(360deg);*/
+    
+    opacity: 0.5;
+}
+/*----------------------START "" TOURS IN SEPARATE WEB PAGE-----------------*/
+#tours h1{
+    
+    color: purple;
+    padding-top:160px;
+    padding-bottom:15px;
+    margin: 0;
+    max-width: 100%;
+    max-height:100% ;
+    text-align: center;
+}
+#tours p{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom:15px;
+}
+#tours p a{
+    text-decoration: none;
+    color: purple;
+}
+#tours p a:hover{
+    color: white;
+}
+/*---------------------------COUNTRY--------------------------*/
+.country{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    row-gap: 15px;
+    column-gap: 0;
+    margin: 20px;
+    position:relative;
+    
+}
+/*---------------------------SEOUL--------------------------*/
+.country .seoul{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    float: left;
+    margin-right: 10px;
+    
+}
+.country .seoul div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .seoul:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .seoul .flag-seoul{
+    width: 200px;
+    height: 200px;
+    /*transition:0.7s ease-in-out;*/
+    border: 5px solid black;
+   
+}
+/*
+.country .seoul .flag-seoul:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+/*---------------------------BUSAN--------------------------*/
+.country .busan{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .busan div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .busan:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .busan .flag-busan{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .busan .flag-busan:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+/*---------------------------UK--------------------------*/
+.country .uk{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .uk div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .uk:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .uk .flag-uk{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .uk .flag-uk:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+/*---------------------------USA--------------------------*/
+.country .usa{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .usa div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .usa:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .usa .flag-usa{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .usa .flag-usa:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+/*---------------------------CANADA--------------------------*/
+.country .canada{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .canada div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .canada:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .canada .flag-canada{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .canada .flag-canada:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+/*---------------------------FRANCE--------------------------*/
+.country .france{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .france div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .france:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .france .flag-france{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .france .flag-france:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+
+/*---------------------------SAUDI--------------------------*/
+.country .saudi{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .saudi div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .saudi:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .saudi .flag-saudi{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .saudi .flag-saudi:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+
+/*---------------------------CROSSWALK--------------------------*/
+.country .crosswalk{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.country .crosswalk div{
+    position: absolute;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    bottom: 0;
+}
+.country .crosswalk:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.country .crosswalk .flag-crosswalk{
+    width: 200px;
+    height: 200px;
+    transition:0.7s ease-in-out;
+    border: 5px solid black;
+}
+/*
+.country .crosswalk .flag-crosswalk:hover {
+     transform: rotate(360deg);
+     transform: scale(0.7);
+     opacity: 0.5;
+}
+*/
+
+.footer{
+    background-color: plum;
+    color: black;
+    border: 3px solid purple;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+}
+
+/*----------------------END "" TOURS IN SEPARATE WEB PAGE-----------------*/
+/*----------------------ALBUM IMAGE -----------------*/
+.album-heading h1{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+#album{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+}
+#album .album-image{
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#album .album-list{
+    padding: 5px;
+    width: 670px;
+    height: 450px;
+    transition:0.7s ease-in-out;
+}
+#album .album-list:hover{
+    
+    opacity: 0.7;
+}
+/*------------------------------CONTACT INFORMATION----------------------------*/
+#contact-info{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+#contact-info h1{
+    margin-top: 5px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+#contact-info h2{
+    font-weight: bolder;
+    padding: 10px;
+}
+#contact-info h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#contact-info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#contact-info h1 , h2 , h3 ,p{
+    text-align: center;
+    line-height: 35px;
+}
+/*----------------------CONTACT US!----------------*/
+.contact{
+    text-align: center;
+    padding: 15px;
+
+}
+.contact a{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: purple;
+}
+
+/*-------------------------------ABOUT WEB PAGE----------------------*/
+.about-img{
+    padding-top:140px ;
+    width: 500px;
+    height: 500px;
+}
+.img{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));*/
+    display: flex;
+}
+.img p.about-content{
+    padding-top:140px ;
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+}
+/*----------------------------BTS IMAGE---------------------*/
+.mem-image{
+    padding-top:5px;
+    margin: 0;
+    max-width: 100%;
+    max-height:100% ;
+}
+/*----------------------------BTS MEMBERS IMAGE---------------------*/
+#mem-img-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    padding: 15px;
+    
+    margin: 0;
+}
+.mem-images{
+    width: 300px;
+    height: 290px;
+    transition: 0.7s ease-in-out;
+    padding: 5px;
+}
+#mem-img-1 .mem{
+    text-align: center;
+}
+.mem-images:hover{
+    border-radius: 35px;
+    box-shadow: inset 10px 10px 50px rgb(56, 2, 76); 
+}
+.mem h3{
+    font-family: cursive;
+    font-size: 22px;
+    padding: 5px;
+}
+.borahae{
+    background-color: white;
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: inset 10px 10px 50px rgb(56, 2, 76);
+}
+.borahae h1{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+/*--------------------------------------ALBUM---------------------------------*/
+.head{
+    background-color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: inset 20px 20px 50px 5px rgb(56, 2, 76);
+    padding: 30px;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+.albums{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    
+  
+}
+.albums .cover{
+    width: 300px;
+    height: 290px;
+    transition: 0.7s ease-in-out;
+}
+
+/*-------------2 COOL 4 SKOOL------------*/
+.first{
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    padding: 15px;
+    font-style: italic;
+    color: lavenderblush;
+}
+.firstimg{
+    float: left;
+   height: 300px;
+   width: auto;
+   margin: 5px;
+   padding: 5px;
+}
+#details{
+    margin: 0;
+    padding: 0;
+
+}
+.details{
+    text-align: left;
+    
+}
+.music_video{
+    text-align: center;
+}
+.firstmv{
+    float: left;
+}
+.secondmv{
+    float: right;
+}
+/*---------------------------------Contact----------------------------*/
+.contact_heading{
+    margin-top: 5px;
+    
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+    padding-top: 150px;
+}
+.address{
+    
+    background-image: url(https://wallpaper.dog/large/5468007.jpg);
+    height: 450px;
+}
+.address .map{
+    float: left;
+    padding-right: 15px;
+}
+
+.address form{
+    padding:15px;
+    text-align: center;
+}
+
+.address form h3{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+ 
+}
+
+.address form .inputBox{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 0px 40px 40px 0px;
+    
+}
+
+.address form .inputBox span{
+    color:purple;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.address form .inputBox input{
+    
+    padding:20px;
+    font-size: 20px;
+    color:black;
+    text-transform: none;
+    background:none;
+}
+.btn{
+    margin-top: 10px;
+    padding:10px;
+    font-size: 20px;
+    color:purple;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+   
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#address_contact{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+}
+#address_contact h1{
+    margin-top: 5px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+#address_contact h2{
+    font-weight: bolder;
+    padding: 10px;
+}
+#address_contact h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#address_contact p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#address_contact h1 , h2 , h3 ,p{
+    text-align: center;
+    line-height: 35px;
+}
+.icon{
+    text-align: center;
+    padding: 15px;
+}
+.icon a{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: purple;
+}
+/*---------------------------------Login----------------------------*/
+#login{
+    background-color: white;
+    padding: 15px;
+    padding-top: 30px;
+    border-radius: 20px;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+   
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+button:hover {
+    opacity: 0.8;
+}
+.back_img{
+  max-width: 100%;
+  max-height: 100%;
+}
